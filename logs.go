@@ -21,10 +21,10 @@ import (
 	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterottl"
 	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottllog"*/
 
-	/*"google3/experimental/users/anishsp/expr"
-	"google3/experimental/users/anishsp/filterconfig"
-	"google3/experimental/users/anishsp/filterlog"
-	"google3/experimental/users/anishsp/filterottl"*/
+	"github.com/anishp31/filter_poc/expr"
+	"github.com/anishp31/filter_poc/filterconfig"
+	"github.com/anishp31/filter_poc/filterlog"
+	"github.com/anishp31/filter_poc/filterottl"
 )
 
 type filterLogProcessor struct {

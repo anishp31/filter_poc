@@ -20,10 +20,10 @@ import (
 	
 	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
 	
-	// "google3/experimental/users/anishsp/filterconfig"
-	// "google3/experimental/users/anishsp/filterottl"
-	// "google3/experimental/users/anishsp/filterset"
-	// "google3/experimental/users/anishsp/regexp"
+	"github.com/anishp31/filter_poc/filterconfig"
+	"github.com/anishp31/filter_poc/filterottl"
+	"github.com/anishp31/filter_poc/filterset"
+	"github.com/anishp31/filter_poc/regexp"
 )
 
 // Config defines configuration for Resource processor.
