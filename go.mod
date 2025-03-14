@@ -10,6 +10,10 @@ require (
 	go.opentelemetry.io/collector/processor v0.121.0
 	go.uber.org/multierr v1.11.0
 	go.uber.org/zap v1.27.0
+	github.com/anishp31/filter_poc/expr v1.0.0
+	github.com/anishp31/filter_poc/filterconfig v1.0.0
+	github.com/anishp31/filter_poc/filterlog v1.0.0
+	github.com/anishp31/filter_poc/filterottl v1.0.0
 )
 
 require (
@@ -32,4 +36,5 @@ require (
 	google.golang.org/grpc v1.70.0 // indirect
 	google.golang.org/protobuf v1.36.5 // indirect
 )
+
 
